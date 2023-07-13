@@ -4,6 +4,7 @@ import { Box } from "@mui/material";
 
 import { Videos, ChannelCard } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
+// import  fetchFromAPI from "../utils/fetchFromAPI";
 
 const ChannelDetail = () => {
   const [channelDetail, setChannelDetail] = useState();
